@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,6 +17,9 @@
         android:theme="@style/Theme.Cafe4u"
         tools:targetApi="31">
         <activity
+            android:name=".activity.createMapEdge"
+            android:exported="false" />
+        <activity
             android:name=".activity.ShopDetailActivity"
             android:exported="false" />
         <activity
@@ -28,7 +32,6 @@
         <activity
             android:name=".activity.UsersActivity"
             android:exported="false" />
-
         <activity
             android:name=".activity.kqua_search"
             android:exported="false" />
@@ -38,7 +41,6 @@
         <activity
             android:name=".activity.tai_khoan"
             android:exported="false" />
-
         <activity
             android:name=".activity.chitiet_quan"
             android:exported="false" />

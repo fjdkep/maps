@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#041F60"
-    tools:context=".activity.dang_nhap">
+    tools:context="com.example.kien101.activity.dang_nhap">
 
     <ImageView
         android:id="@+id/imageView2"

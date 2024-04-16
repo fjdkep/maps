@@ -8,7 +8,7 @@
     android:background="@color/backgroudmain"
 
 
-    tools:context=".activity.HomeChatActivity">
+    tools:context="com.example.kien101.activity.HomeChatActivity">
 
     <TableLayout
         android:layout_width="match_parent"

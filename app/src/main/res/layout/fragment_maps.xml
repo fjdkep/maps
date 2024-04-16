@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/map"
-    tools:context=".activity.MapsFragment"
+    tools:context="com.example.kien101.activity.MapsFragment"
     android:name="com.google.android.gms.maps.SupportMapFragment"/>
 
 

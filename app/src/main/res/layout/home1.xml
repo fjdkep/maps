@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.home1">
+    tools:context="com.example.kien101.activity.home1">
 
     <fragment
         android:id="@+id/map"
@@ -63,6 +63,15 @@
             android:scaleX="2"
             android:src="@drawable/baseline_filter_alt_24" />
     </LinearLayout>
+
+
+<!--    //test-->
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_margin="100dp"
+        android:id="@+id/createMap"/>
 
 
 

@@ -7,7 +7,7 @@
     android:animateLayoutChanges="true"
 
     android:background="@color/backgroudmain"
-    tools:context=".activity.ChatActivity">
+    tools:context="com.example.kien101.activity.ChatActivity">
 
     <View
         android:layout_width="match_parent"
